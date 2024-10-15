@@ -1,0 +1,13 @@
+rest parameter di gunakan Ketika mau membuat fungsi yang mempunyai parameter
+
+... menandakan kalo dia rest parameter
+
+dia betipe data array
+
+rest parameter harus berada di terkahir dalam parameter list
+
+//SPREAD OPERATOR
+digunakan pada array dan object
+
+pada array : duplikasi array, 
+

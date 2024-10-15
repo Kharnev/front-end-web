@@ -1,0 +1,16 @@
+//for 
+pake let boleh, nda pake boleh
+++ itu artinya dia akan melakukan penjumlahan sesuai kondisi / sampai di kondisi yang sudah ditentukan
+
+//array build-in method
+[1,2,3,4,5] kita akan looping satu persatu nilai di dalam array
+
+kalau map itu ada return value nya
+
+filter = search
+mancari data tertentu di dalam array
+
+kalo filter data nya yang akan muncul berupa array = semua data nya
+kalo find bener" cuman data yang dibutuhkan
+
+{} ouput = object

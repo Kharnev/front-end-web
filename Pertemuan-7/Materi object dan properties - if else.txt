@@ -1,0 +1,5 @@
+objek memiliki properti dan nilai
+bisa memberikan ket tambahan di array
+
+apabila function nya berada di dalam object otomatis akan menjadi method yang bisa dipanggil
+

@@ -1,0 +1,9 @@
+let = variabel yang nilai nya bisa di ganti
+const = variabel yang nilai nya tidak bisa di ganti
+
+operator
+++ menambah 1
+-- mengurangi 1
+kedua ini bagus dipakai dalam program looping
+
+

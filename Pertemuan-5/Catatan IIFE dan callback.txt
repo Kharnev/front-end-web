@@ -1,0 +1,53 @@
+(tanya dulu stack overflow)
+Anonymous function - harus dijalan kan otomatis karena dia tidak punya nama function
+IIFE (fungsi yang dipanggil langsung)
+cara memanggil :
+(function () {
+  // …
+})();
+
+(() => {
+  // …
+})();
+
+(async () => {
+  // …
+})();
+
+IIFE (Immediately Invoked Function Expression)
+/ nda ada parameter
+
+/With paramater
+
+Callback Function
+FUNGSI yang dijadikan sebagai argumen - sebuah fungsi bisa memanggil fungsi yang lain
+
+//Callback Function
+//no paramter dan argumen dan return value
+function sayHello (callback) {
+    callback();
+}
+
+function greetings () {
+    console.log("Hello Callback Function") ;
+}
+
+sayHello(greetings) ;
+
+// 
+sayHello (function () {
+    console.log("Hello Callback Function") ;
+}) ;
+
+//With parameter dan argumen dan return value
+function sayHello (callback) {
+    //Logic
+    let output1 = callback("Kharis  Awuy");
+    return output1;
+}
+
+let output1 = sayHello (function (fullName) {
+    return "Hello" + fullName;
+}) ;
+
+console.log(output1);
